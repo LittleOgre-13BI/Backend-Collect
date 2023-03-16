@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/springbootjlvpC?setUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+
+
+# similarity-service-url
+similarity-service:
+  url: http://127.0.0.1:5000

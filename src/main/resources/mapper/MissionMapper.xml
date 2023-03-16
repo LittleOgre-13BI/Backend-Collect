@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapperservice.MissionMapperService">
+
+    <resultMap id="missionMap" type="com.po.Mission">
+        <id column="mid" property="mid"/>
+        <result column="uid" property="uid"/>
+        <result column="recruit_start" property="recruitStart"/>
+        <result column="recruit_end" property="recruitEnd"/>
+        <result column="last_fetch_time" property="recruitEnd"/>
+        <result column="time_limit" property="recruitEnd"/>
+        <result column="worker_num" property="recruitEnd"/>
+        <result column="difficulty_level" property="recruitEnd"/>
+        <result column="description" property="recruitEnd"/>
+        <result column="name" property="recruitEnd"/>
+        <result column="mission_type" property="recruitEnd"/>
+        <result column="device_req" property="recruitEnd"/>
+        <result column="exe_url" property="recruitEnd"/>
+        <result column="doc_url" property="docUrl"/>
+        <result column="state" property="state"/>
+    </resultMap>
+</mapper>
