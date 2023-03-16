@@ -11,9 +11,9 @@ public class OssFileUtils {
 
     private static String endpoint = "oss-cn-beijing.aliyuncs.com";
 
-    private static String accessKeyId = "LTAI5tGkbp9z8XLMjFQbv72w";
+    private static String accessKeyId = "********************";
 
-    private static String accessKeySecret = "FvQMunRrgTtEztp9tBkE3p6omiCvVS";
+    private static String accessKeySecret = "********************";
 
     private static String bucketName = "file-collect";
 
